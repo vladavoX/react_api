@@ -1,0 +1,21 @@
+.contacts-list {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.contact {
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: #d4d6b9;
+  background: #32213A;
+  background: linear-gradient(45deg, #32213A 0%, #6c3387 100%);
+}
+
+li {
+  list-style: none;
+}
